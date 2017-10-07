@@ -1,0 +1,77 @@
+
+A.
+
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 426 bytes | 426.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ErinWiggins/Assignment1.git
+   83e9578..98f97f6  master -> master
+
+
+B.
+
+So far, 9 commits have been done to this respository. The git command used was  "git log".
+
+
+C.
+
+The file .gitignore was last modified September 27. The command used was
+"git log --follow .gitignore"
+
+
+D.
+
+The IDs are:
+commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+The command used was "git log --merges"
+
+
+E.
+
+One reason to use branching is so developers can work on the same project in
+parallel. Another reason is to make sure code changes are verified and working
+well before delivering the new code to team members.
+
+
+F.
+
+The "git status" command shows the state of the working directory. It shows
+which changes have been staged, which ones have not been staged, and which
+files are not being tracked by Git. "git status" does not show any history. The
+command "git log" does show the history and what commits have been made.
+
+
+G.
+
+The command would be "git log Weapon.h"
+
+
+H.
+
+The command would be "git log --grep="file" 
+
+
+I.
+
+1. Inheritance is useful when many classes are simiar to one another. Those
+similarities are grouped together into a base classes. Then the derived classes
+inherit the data and properties of the parent class. Inheritance demonstrates
+an "is-a" relationship. For example, "Pet" could be the parent class and then
+"Dog", "Cat", and "Rabbit" could be derived classes.
+
+2. Polymorphism refers to different objects being processed differently based
+on their data type or class. For example, say there was a parent class "Shape",
+then the function CalculateArea() would be different for the derived classes
+"Circle", "Triangle", and "Rectangle".
+
+3. Encapsulation is when data and functions are grouped together in a single
+class. When using classes, data is usually not accessed directly. Instead,
+users can access data through the use of the class's functions. Data and 
+functions are either "public", "private", or "protected".
+
+   
