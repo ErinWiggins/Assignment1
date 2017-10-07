@@ -8,5 +8,14 @@
 
 double WeakSlingshot::hit(double armor) {
 
-	return 0;
+	double damage;
+	if (armor < 20)
+		damage = hitPoints - (armor*0.9);
+	else
+		damage = hitPoints - armor;
+
+	if (damage < 0)
+		return 0;
+
+	return damage;
 }
