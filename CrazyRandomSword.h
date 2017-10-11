@@ -6,6 +6,9 @@
  */
 
 #include <string>
+#include "stdlib.h"
+#include "time.h"
+
 #include "Weapon.h"
 
 #ifndef CRAZYRANDOMSWORD_H
@@ -16,13 +19,18 @@
  * ignores random integer amount of armor points ranging from 0 to half of hitpoints)
  */
 
+
+
 class CrazyRandomSword : public Weapon {
 public:
 
-	CrazyRandomSword() : Weapon("Crazy random sword", rand()%100+10) {
+	CrazyRandomSword() : Weapon("Crazy random sword", calculateHitpoints()) {
 	}
 	virtual ~CrazyRandomSword() {};
 	virtual double hit(double armor);
+
+private:
+	double calculateHitpoints();
 
 };
 
